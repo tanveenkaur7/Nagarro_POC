@@ -1,0 +1,16 @@
+Nagarro_POC:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: https://xjqkpqp-sw28513.snowflakecomputing.com # Full account identifier
+      user: TANVEENK
+      password: Gurbanijio123#
+      role: accountadmin  # Ensure role is correct
+      database: demo_db
+      warehouse: compute_wh
+      schema: DEMO_SCHEMA
+      threads: 4
+      client_session_keep_alive: False
+      profile: Nagarro_POC
+
